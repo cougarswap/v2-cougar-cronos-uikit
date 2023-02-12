@@ -14,7 +14,7 @@ const networks: NetWorkConfig[] = [
         title: "Poly",
         fullName: "Polygon Network",
         icon: PolygonIcon,
-        active: true,        
+        active: false,        
         url: 'https://polyapp.cougarswap.io'
     },
 {
@@ -42,7 +42,7 @@ const networks: NetWorkConfig[] = [
         title: "Cronos",
         fullName: "Cronos Network",
         icon: CronosIcon,
-        active: false,        
+        active: true,        
         url: 'https://cronosapp.cougarswap.io'
     },
     {

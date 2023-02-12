@@ -31,7 +31,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
       />
     ))}
     <HelpLink
-      href="https://cougarecosystem.gitbook.io/polycougarswap/How To Set Up Your Wallet On Polygon"
+      href="https://cougarswap.gitbook.io/cronoscougarswap/How To Set Up Your Wallet On Cronos"
       external
     >
       <HelpIcon color="primary" mr="6px" />

@@ -45,7 +45,7 @@ const SwitchNetworkModal: React.FC<Props> = ({networks, onDismiss}) => {
                 ))}
             </NetworkWrapper>
             <HelpLink
-                href="https://cougarswap.cougarecosystem.io/polycougarswap/How To Set Up Your Wallet On Polygon"
+                href="https://cougarswap.gitbook.io/cronoscougarswap/How To Set Up Your Wallet On Cronos"
                 external
             >
                 <HelpIcon color="primary" mr="6px" />

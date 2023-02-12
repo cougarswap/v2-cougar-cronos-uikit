@@ -108,7 +108,7 @@ export const socials = [
   },{
     label: "Gitbook",
     icon: "GitbookIcon",
-    href: "https://cougarecosystem.gitbook.io/polycougarswap/",
+    href: "https://cougarecosystem.gitbook.io/cronoscougarswap/",
   }, 
   {
     label: "Telegram",
@@ -123,12 +123,12 @@ export const socials = [
         href: "https://t.me/CougarSwap_Official_ANN"
       }
     ],
-  }, 
+  },
   {
     label: "Twitter",
     icon: "TwitterIcon",
     href: "https://twitter.com/cougarswap",
-  },  
+  },
   {
     label: "Discord",
     icon: "DiscordIcon",

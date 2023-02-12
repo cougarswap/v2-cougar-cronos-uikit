@@ -41,7 +41,7 @@ const JagoSaferStyledImage = styled.img`
 const PanelRugDog = () => {
     return (
         <Container>
-            <ReviewedByRugDocEntry target="_blank" href="https://rugdoc.io/project/cougarswap-poly/">
+            <ReviewedByRugDocEntry target="_blank" href="https://rugdoc.io/project/cougarswap-cronos/">
                 <img src="/images/promotion/rugdoc-review-badge-with-glow.png" alt="Reviewed by RugDoc"/>
             </ReviewedByRugDocEntry>
             {/* <JagoSaferContainer>

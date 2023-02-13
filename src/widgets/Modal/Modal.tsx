@@ -28,7 +28,7 @@ const StyledModal = styled.div`
 `;
 
 const ModalHeader = styled.div`
-  background: linear-gradient(90deg, #22658c 0%, #01213e 100%, #01213e 100%);
+  background: linear-gradient(166deg,#6e4d05 20%,#6e4527 80%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;

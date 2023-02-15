@@ -18,8 +18,8 @@ export enum ConnectorNames {
   WalletConnect = "walletconnect",
   BSC = "bsc",
   CDCDefiWallet = "Crypto.com DeFi Wallet",
+  CloverWallet = "Clover Wallet",
   CoinBase = "Coinbase connector",
-  Talisman= "Talisman",
 }
 
 export type Login = (connectorId: ConnectorNames) => void;

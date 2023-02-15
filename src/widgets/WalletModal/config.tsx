@@ -7,7 +7,7 @@ import { Config, ConnectorNames } from "./types";
 import Safepal from "./icons/Safepal";
 import OKEx from "./icons/OKEx";
 import BitKeep from "./icons/BitKeep";
-import Talisman from "./icons/Talisman";
+import CryptoCom from "./icons/CryptoCom";
 import CoinBase from "./icons/CoinBase";
 import Coin98 from "./icons/Coin98";
 import Nabox from "./icons/Nabox";
@@ -20,6 +20,12 @@ const connectors: Config[] = [
     priority: 1,
   },
   {
+    title: "Crypto.com Defi Wallet",
+    icon: CryptoCom,
+    connectorId: ConnectorNames.CDCDefiWallet,
+    priority: 4,
+  },
+  {
     title: "WalletConnect",
     icon: WalletConnect,
     connectorId: ConnectorNames.WalletConnect,
@@ -30,7 +36,7 @@ const connectors: Config[] = [
     icon: TrustWallet,
     connectorId: ConnectorNames.Injected,
     priority: 3,
-  },   
+  },  
   {
     title: "MathWallet",
     icon: MathWallet,
@@ -43,6 +49,18 @@ const connectors: Config[] = [
     connectorId: ConnectorNames.Injected,
     priority: 999,
   },
+  // {
+  //   title: "Clover Wallet",
+  //   icon: Clover,
+  //   connectorId: ConnectorNames.CloverWallet,
+  //   priority: 999,
+  // },         
+  // {
+  //   title: "Binance Change Wallet",
+  //   icon: BinanceChain,
+  //   connectorId: ConnectorNames.BSC,
+  //   priority: 999,
+  // }, 
   {
     title: "Coin98",
     icon: Coin98,
@@ -78,13 +96,7 @@ const connectors: Config[] = [
     icon: BitKeep,
     connectorId: ConnectorNames.Injected,
     priority: 999,
-  }, 
-  {
-    title: "Talisman",
-    icon: Talisman,
-    connectorId: ConnectorNames.Talisman,
-    priority: 999,
-  }, 
+  },
 ];
 
 export default connectors;
